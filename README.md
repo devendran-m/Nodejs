@@ -1,4 +1,4 @@
-## Simple Nodejs Project using Events
+## Simple Interactive Query Generator project using Node.js
 
 Run quesions.js to test the program
 <node questions.js>
