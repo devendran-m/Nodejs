@@ -8,4 +8,7 @@
 
 **Step 3.** collectAnswers.js uses Readline interface and Events emitter to make this program work interactively
   
-
+**Future Work**
+  To improve the interaction and make it more seamless
+  To create a UI for better UX
+  
