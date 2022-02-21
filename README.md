@@ -12,3 +12,5 @@
   To improve the interaction and make it more seamless
   To create a UI for better UX
   
+  Update:
+  Readme updated to demo Github Automatic Release Notes Generation.
