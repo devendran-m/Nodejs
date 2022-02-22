@@ -5,11 +5,16 @@
     "release": "release-it"
   },
   "devDependencies": {
-    "release-it": "*"
+    "release-it": "^14.12.5"
   },
-  "github": {
-    "release": true,
-    "releaseNotes": "generate-release-notes.sh --from=${latestTag} --to=${tagName}",
-    "assets": ["dist/*.zip"]
+  "release-it": {
+    "github": {
+      "release": true,
+      "releaseNotes": "generate-release-notes.sh --from=${latestTag} --to=${tagName}",
+      "assets": ["dist/*.zip"]
+    },
+    "npm": {
+      "publish": false
+    }    
   }
 }
