@@ -1,0 +1,29 @@
+{
+  "name": "my-package",
+  "version": "1.0.0",
+  "scripts": {
+    "release": "release-it"
+  },
+},
+{
+  "devDependencies": {
+    "release-it": "^14.12.5"
+  }
+},
+{
+  "scripts": {
+    "release": "read -p 'GITHUB_TOKEN: ' GITHUB_TOKEN && export GITHUB_TOKEN=$GITHUB_TOKEN && release-it"
+  }
+},
+{
+  "github": {
+    "release": true,
+    "releaseNotes": "generate-release-notes.sh --from=${latestTag} --to=${tagName}"
+  }
+},
+{
+  "github": {
+    "release": true,
+    "assets": ["dist/*.zip"]
+  }
+}
