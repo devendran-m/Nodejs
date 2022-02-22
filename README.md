@@ -14,3 +14,8 @@
   
   Update:
   Readme updated to demo Github Automatic Release Notes Generation.
+
+  Clone the repo directly to VSCode
+  Add this line
+  Commit using SemVer and Conventitional Commit standard
+  Push and PR
