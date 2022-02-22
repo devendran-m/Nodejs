@@ -10,7 +10,8 @@
   "release-it": {
     "github": {
       "release": true,
-      "releaseNotes": "generate-release-notes.sh --from=${latestTag} --to=${tagName}",
+      "tokenRef": "GITHUB_TOKEN",
+      "autoGenerate": true,
       "assets": ["dist/*.zip"]
     },
     "npm": {
