@@ -1,6 +1,6 @@
 {
   "name": "my-package",
-  "version": "1.0.0",
+  "version": "1.1.4",
   "scripts": {
     "release": "release-it"
   },
@@ -12,10 +12,12 @@
       "release": true,
       "tokenRef": "GITHUB_TOKEN",
       "autoGenerate": true,
-      "assets": ["dist/*.zip"]
+      "assets": [
+        "dist/*.zip"
+      ]
     },
     "npm": {
       "publish": false
-    }    
+    }
   }
 }
