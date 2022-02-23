@@ -22,3 +22,4 @@
   * PR
   * Auto Release Notes
   * Additional comments to test autogen release notes#branch6
+  * Tag v1.1.7
